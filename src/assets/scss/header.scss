@@ -1,0 +1,26 @@
+.header-flex {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.button-wrap {
+    margin-right: 10px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.header-button {
+    display: block;
+    padding: 5px 30px;
+    border-radius: 80px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    background: #F4E041;
+}

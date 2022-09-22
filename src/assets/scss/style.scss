@@ -1,0 +1,30 @@
+@import 'header';
+@import 'main-block';
+@import 'user';
+@import 'form';
+@import 'font';
+@import 'media';
+body {
+    font-size: 16px;
+    font-family: 'Nunito Regular';
+    font-weight: 400;
+    line-height: 1.6;
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+h1 {
+    margin: 0 0 0 0;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}

@@ -1,0 +1,25 @@
+@media(max-width: 1024px) {
+    .header {
+        margin: 0 -15px;
+    }
+
+    .main-block {
+        margin: 0 -15px;
+    }
+
+    .main-center-block {
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 768px) {
+    .get-request-item {
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 475px) {
+    .get-request-item {
+        max-width: 100%;
+    }
+}
